@@ -6,7 +6,7 @@ import java.lang.reflect.Type;
 import java.util.Date;
 import java.util.Objects;
 
-public class DateTypeAdapter implements TypeAdapter<Date>{
+public class DateAdapter implements TypeAdapter<Date>{
 
     @Override
     public Class<Date> getType(){
